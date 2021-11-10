@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rosca Marius-Andrei</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script>
+function myFunction() {
+  document.getElementById("functie1").innerHTML = "Ing. Rosca Marius-Andrei";
+  document.getElementById("functie2").innerHTML = "Work and Travel";
+  document.getElementById("functie3").innerHTML = "Pregatire personala in domeniul ingineriei";
+  document.getElementById("functie4").innerHTML = "Pregatire personala in domeniul IT";
+  document.getElementById("functie5").src = "poza4.jpg";
+  document.body.style.backgroundColor = 'brown';
+  var tabel= document.getElementById("tabel")
+  tabel.rows[0].cells[0].innerHTML="asd";
+  tabel.rows[0].cells[1].innerHTML="asd";
+  tabel.rows[0].cells[2].innerHTML="aaa";
+  tabel.rows[1].cells[0].innerHTML="sdad";
+  tabel.rows[1].cells[1].innerHTML="ffdsf";
+  tabel.rows[1].cells[2].innerHTML="fsfds";
+  tabel.rows[2].cells[0].innerHTML="fsdfs";
+  tabel.rows[2].cells[1].innerHTML="dsfsd";
+  tabel.rows[2].cells[2].innerHTML="fsfds";
+  tabel.rows[3].cells[0].innerHTML="acasadfd";
+  tabel.rows[3].cells[1].innerHTML="dvcxvxc";
+  tabel.rows[3].cells[2].innerHTML="dasdasd";
+}
+
+function mouseover() {
+  document.getElementById("varsta").innerHTML = "20";
+}
+
+function mouseout() {
+  document.getElementById("varsta").innerHTML ="07.09.2001";
+}
+
+</script>
+<h1 id="functie1">Rosca Marius-Andrei</h1>
+<button type="button" onclick="myFunction()">Alta Viata</button>
+<p>Email:arosca0907@gmail.com</p>
+<p id="varsta" onmouseover="mouseover()" onmouseout="mouseout()">Anul nasterii:07.09.2001</p>
+<p>Asteptarile legate de aceasta facultate se rezuma la acest citat:Nu esti suficient de tanar pentru a sti tot.</p>
+<img id="functie5" src="poza.jpg" alt="Poza de Profil">
+
+<h2>Hobby-uri</h2>
+
+<ul>
+  <li id="functie2">Fotbalul</li>
+  <li id="functie3">Sporturile de contact</li>
+  <li id="functie4">Petrecerile cu prietenii</li>
+</ul> 
+
+<table id="tabel" style="width:100%">
+  <tr>
+    <th>Materie</th>
+    <th>Fisa de disciplina</th>
+    <th>Anul</th>
+  </tr>
+  <tr>
+    <td>Circuite Integrale Fundamentale</td>
+<td><p><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/19.pdf/">Circuite Integrale Digitale</a></p></td>
+    <td>II</td>
+  </tr>
+  <tr>
+    <td>Circuite Electronie Fundamentale</td>
+    <td><p><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/20.pdf/">Circuite Electronice Fundamentale</a></p></td>
+    <td>II</td>
+  </tr>
+  <td>Programarea Calculatoarelor si limbaje de programare</td>
+    <td><p><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/04.pdf/">Programarea calculatoarelor și limbaje de programare </a></p>
+	<td>I</td>
+</td>
+</body>
+</body>
+</html>
